@@ -1,6 +1,6 @@
 export VERSION=v0.44
 
-echo "Building carbon-c-relay from revision $revision"
+echo "Building carbon-c-relay from revision $VERSION"
 docker run --rm \
   -v /tmp:/export \
   gliderlabs/alpine \
